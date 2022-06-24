@@ -1,0 +1,14 @@
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+table {width: 90%; margin: 2%; border-collapse: separate; }
+
+th {border-top: 1px solid #999; border-bottom: 1px solid #111;
+        text-transform: uppercase; text-align: left; font-size: 90%;
+        letter-spacing: 0.1em;/*código para espaçamento entre letras*/}
+td {letter-spacing: 00.1em;}
+
+tr:hover {background-color: #c3e6e5;}
+
+.preço {text-align: right;}
+
+h2 {margin: 15px;}

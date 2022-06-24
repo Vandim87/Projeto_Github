@@ -1,0 +1,9 @@
+TAG ESPECIFICA 
+header  = para cabeçalho
+nva     = para navegação
+footer  = para rodape
+article = para postagem
+section = para seções
+aside   = para lateral
+
+HTML5 shiv - para configura boower para receber tag acima

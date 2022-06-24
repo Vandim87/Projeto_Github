@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/Museu.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+</head>
+<body>
+    <div id="conteiner"> <!--Inicio_conteiner-->
+            <header> <!--Inicio_cabeçalho-->
+               
+                <div id="logo">
+                    <h1><a href="">Museu Nacional</a></h1>
+                </div>
+
+                <nav> <!--Inicio_navegação-->
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Exposições</a></li>
+                        <li><a href="">Pesquisa</a></li>
+                        <li><a href="">Acervo</a></li>
+                        <li><a href="">Vídeos</a></li>
+                        <li><a href="">Fotos</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav> <!--Fim_navegação-->
+
+            </header> <!--Fim_cabeçalho-->
+        <div id="principal"> <!--Incio_conteudo-->
+            <div id="conteudo">    
+                <section id="capa">
+                    <img src="/Menu/img/museu.png" alt="">
+                </section>
+            </div>
+        </div> <!--Fim_conteudo-->
+        <aside> <!--Incio_lateral-->
+                <section>
+                    <img src="/Menu/img/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça sua Visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Data de Visita</legend>
+                            
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+<br>
+                            <label for="qtd">Qdt Pessoas</label>
+                            <input class="campo"   type="text" id="qtd" value="1">
+                        </fieldset>
+                        <input class="botao" type="submit" value="verificar disponoilidade">
+                    </form>
+                </section>
+        </aside> <!--Fim_lateral-->
+    </div> <!--Fim_conteiner-->
+</body>
+</html>

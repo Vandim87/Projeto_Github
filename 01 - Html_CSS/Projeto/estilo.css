@@ -1,0 +1,38 @@
+#Principal{width: 99%; margin: 3px auto; border: 2px solid rgb(3, 61, 47); padding: 2px;}
+
+/*CSS avançado - Modelo de caixa*/
+.conteudo{/*border: 1px solid blue;*/
+                  padding: 10px;
+                  width: 28%;
+                  margin: 3px;
+                  float:left}
+/*CSS float - objto flutuante  */
+.conteudo1{border: 1px solid blue; background-color: rgb(12, 230, 230);
+                    padding: 5px;
+                   width: 150px; height: 150px;
+                   margin: 5px;
+                   float: left;}
+/* CSS clear - para limpar fluxo */
+.clear{ clear: both;}
+.imagem{padding: 10px; width: 97%;}
+/* CSS - estilos em todos paragrafos p */
+p{font-size: 15px; margin: 5px; text-align: justify; width: 95%; padding: 0px 0px 0px 0px; color: rgb(3, 3, 56);}
+/* CSS - estilos em todos titulos h3 */
+h3{background-color: black; color: aliceblue; text-align: center; margin: 3px 0px 3px 0px;}
+/*CSS - estilo e formatação dos link*/
+/*a:link - estilo para links não visitados*/
+/*a:visited - estilo para links visitados*/
+/*a:hover - estilo passar o cursos sobre o  links*/
+/*a:link - estilo para links ativos*/
+a{color: rgb(244, 245, 247);  text-decoration: none; background-color: black; border: 1px solid rgb(1, 8, 1); padding: 0px 46px;}
+a:hover{color:black ; background-color: rgb(244, 245, 247);}
+/*CSS - para posição*/
+.movi{ position: fixed;
+            top: 15px; right: 30px;
+           width: 30%;}
+/*CSS - Sobreponto z-index position: absolute; z-index: 0;*/
+
+
+
+
+                   

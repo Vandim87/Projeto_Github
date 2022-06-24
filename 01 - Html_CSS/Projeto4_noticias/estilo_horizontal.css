@@ -1,0 +1,14 @@
+ul  {text-decoration: none; list-style: none; width: 600px; background: #159cb0 url(imagens/fundo-horizontal.png) repeat-x;padding: 0px; margin: 0px; float: left;}
+
+ul  li { float: left;}
+
+ul a {display: block; padding: 0 2em; line-height: 2em; text-decoration: none; color: #fff; background: url(imagens/divisor.png) repeat-y;}
+
+ul .primeiro a {background: none;}
+
+a:hover {color: #085662; background: #44cade;} 
+
+#home #navegação .home a {background-position: right bottom;color: #085662; background: #44cade}
+ #contato #navegação .contato a{background-position: right bottom;color: #085662; background: #44cade}
+ #biografia #navegação .biografia a{background-position: right bottom;color: #085662; background: #44cade}
+ #quem-somos #navegação .quem-somos a{background-position: right bottom;color: #085662; background: #44cade}

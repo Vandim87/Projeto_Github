@@ -1,0 +1,12 @@
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+ul  {list-style: none; 
+        margin: 0px; padding: 0px; width: 720px;}
+
+     ul li {float: left; background: url(imagens/aba-direita.png) no-repeat top right; }
+
+        li a {display: block; text-decoration: none; padding: 0 2em;      line-height: 3em; background: url(imagens/aba-esquerda.png) no-repeat top left; color: #fff;}
+    ul a:hover {color: #894a1f;}
+
+
+    

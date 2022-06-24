@@ -1,0 +1,55 @@
+* {margin: 0px; padding: 0px;}
+
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;}
+
+body.home #navegacao a#home,
+body.saude #navegacao a#saude,
+body.economia #navegacao a#economia,
+body.brasil #navegacao a#brasil,
+body.mundo #navegacao a#mundo,
+body.fotos #navegacao a#fotos
+{color: #fff; background: #de003e; cursor: text;}
+
+ul {margin: 0; padding: 0; list-style: none;}
+
+#conteiner {width: 750px; margin: 0 auto;}
+
+    #topo {height: 150px; background: url(imagens/detalhe-topo.png) no-repeat right top; padding-top: 25px;}
+
+    #topo ul {background: #b10333; margin-top: 30px; float: left; color;}
+
+        #topo ul li {float: left;}
+
+        #topo ul li a {font-size: 0.9em; display: block; padding: 0.5em 1em; line-height: 1.5em; text-decoration: none; color: #fff; background: url(imagens/divisor.png) no-repeat left center;}
+
+        #topo ul a:hover {color: #69001d;}
+
+        #topo ul .primeiro a {background: none;}
+
+        .logo {width: 152px; height: 66px; background: url(imagens/logo.png) no-repeat center; text-indent: -3000px;} 
+
+    #conteudo {background: #f5f5f5; margin-top: 60px;}
+
+     #primario {width: 270px; float: left; margin: 0 -15px 20px 180px;}
+
+     #secundario {width: 270px; float: right;margin: 0 0 20px 0;}
+
+     #lateral {width: 180px;float: left; margin: 0 0 20px -450px;}
+    
+     .caixa {margin: 10px 0; padding: 5px;
+                background: #f3f3f3 url(imagens/fundo-caixa.png);}
+            .caixa-conteudo {background: #fff; padding: 5px; margin-top: 5px;}
+       
+            #lateral ul a {font-size: 0.9em; padding: 3px; display: block; line-height: 25px; color: #000; text-decoration: none; border-bottom: 1px solid #f3f3f3;}
+            #lateral ul a:hover {color: #a1a1a1; background: #f9f9f9 url(imagens/marcador.png) no-repeat left center; padding-left: 20px;}
+        
+        label {display: block; cursor: pointer;}
+
+        input {font-size: 0.9em; background: #fff;padding: 5px; width: 130px;}
+        input.submit {width: 75px; color: #fff; background-color: #b10333;border: 2px solid #870529;padding: 5px;} 
+
+
+h2 {font-size: 1.1em; background: #294c71; color: #fff; padding: 3px;}
+
+ #rodape {background: #294c71; padding: 20px; color: #fff; text-align: center;}

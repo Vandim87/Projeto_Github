@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+function modificaEstilo(CorDeFundo, l, a) {
+    document.getElementById('quadrado').style.background = CorDeFundo
+    document.getElementById('quadrado').style.width = l
+    document.getElementById('quadrado').style.height = a
+}
+    </script>
+    <title>Efeitos no DOC</title>
+</head>
+<body>
+    <h3>Manipulando Cor</h3>
+<button type="button" onclick="modificaEstilo('#FF0000', '50px','50px')">Vermelho</button>
+<button type="button" onclick="modificaEstilo('#00ff00', '50px','50px')">Verde</button>
+<button type="button" onclick="modificaEstilo('#0000ff', '50px','50px')">Azul</button>
+
+ <hr>
+
+<div style="border: solid 1px #000; width: 50px; height: 50px " id="quadrado"></div>    
+</body>
+</html>
